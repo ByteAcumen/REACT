@@ -1,0 +1,20 @@
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.paw-icon {
+  color: orange;
+  font-size: 35px;
+}
+
+.title {
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: darkblue;
+}

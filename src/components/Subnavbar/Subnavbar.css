@@ -1,0 +1,16 @@
+.subnavbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 0;
+    border-bottom: 1px solid lightgray;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

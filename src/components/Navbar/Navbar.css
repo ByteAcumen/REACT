@@ -1,0 +1,38 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 56px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  border-bottom: 1px solid #000000;
+  .element {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 15px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-size: 15px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+  }
+}

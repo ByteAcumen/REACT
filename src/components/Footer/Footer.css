@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: #0c2f6e;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 30px;
+        .footer-paw {
+            font-size: 30px;
+            color: #ff1493;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+}
