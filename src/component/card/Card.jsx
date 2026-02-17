@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className="card">
       <div className="img">
-        <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?w=500" alt="image" />
+        <img src="https://blog.eatfit.in/wp-content/uploads/2023/12/delicious-assortment-traditional-roti-768x513.jpg" alt="image" />
       </div>
       <div className="title">Paratha Love: Unveiling the Magic of Stuffed Flatbreads</div>
       <div className="description">

@@ -1,19 +1,25 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Title from './components/Title/Title'
-import Subnavbar from './components/Subnavbar/Subnavbar'
-import Card from './components/Cards/Cards'
-import Footer from './components/Footer/Footer'
-
+import './App.css'
+import Data from './Data'
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Title/>
-      <Subnavbar/>
-      <Card/>
-      <Footer/>
+      <div className="app-container">
+        <div className="cards">
+          {Data.map((item) => {
+            return (
+              <div className="cardd" key={item.id}>
+                <span>{item.id}</span>
+                <h1>{item.title}</h1>
+                <p>{item.body}</p>
+                <h4>User ID: {item.userId}</h4>
+                <button className="btn btn-primary">Read More</button>
+              </div>
+            )
+          })}
+        </div>
+      </div>
     </div>
   )
 }
