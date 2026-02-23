@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Card = (props) => {
-  console.log(props.task)
+const Card = ({ p, c, a, ph, t, u }) => {
   return (
     <>
 

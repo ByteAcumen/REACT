@@ -3,8 +3,8 @@ import { useState } from 'react';
 import Card from './classwork/card.jsx';
 
 const App = () => {
-  const [post, setpost] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [post, setpost] = useState([]);
   const [comment, setComment] = useState([]);
   const [album, setAlbum] = useState([]);
   const [photo, setPhoto] = useState([]);
@@ -59,18 +59,12 @@ const App = () => {
     setUser(data);
     setLoading(false);
   }
-
-  task();
-
   return (
     <div>
 
       <nav className="navbar navbar-dark bg-dark px-4">
         <span className="navbar-brand fw-bold fs-4">JSON PLACEHOLDER</span>
       </nav>
-
-      
-
       <div className="container my-4">
         <div className="text-center mb-4">
           <button
